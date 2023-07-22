@@ -13,13 +13,13 @@ def test_clear_basket():
         assert 1 == 1
 
 
-@allure.title('Удаляем товар из корзины')
+@allure.title('Удаление товара из корзины')
 def test_remove_item():
     with allure.step('Удаляем товар из корзины'):
         assert 1 == 2
 
 
-@allure.title('Добавляем товар в корзину')
+@allure.title('Добавление товара в корзину')
 def test_add_item():
     with allure.step('Добавляем товар в корзину'):
         assert 1 == 1
